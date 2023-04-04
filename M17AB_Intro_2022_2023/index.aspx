@@ -18,6 +18,11 @@
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Somar" />
             <br />
             <asp:Label ID="lb_resultado" runat="server" Text="Label"></asp:Label>
+            <a href="WebForm1.aspx">Lista de Alunos</a>
+            <br />
+            <asp:Button ID="bt" runat="server" Text="Lista de alunos" OnClick="bt_Click" />
+            <br />
+            <asp:Button ID="bt2" runat="server" Text="Lista de alunos com parametro" OnClick="bt2_Click" />
         </div>
     </form>
 </body>

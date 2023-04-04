@@ -26,6 +26,17 @@ namespace M17AB_Intro_2022_2023
             lb_resultado.Text = (x + y).ToString();
         }
 
+        protected void bt_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("webform1.aspx");
+        }
 
+        protected void bt2_Click(object sender, EventArgs e)
+        {
+            string url = "webform1.aspx";
+            string valor = tb_n1.Text;
+            url = url + "?valor=" + Server.UrlEncode(valor);
+            Response.Redirect(url);
+        }
     }
 }

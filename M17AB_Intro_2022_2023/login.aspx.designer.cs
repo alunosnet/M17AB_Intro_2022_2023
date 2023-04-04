@@ -11,7 +11,7 @@ namespace M17AB_Intro_2022_2023
 {
 
 
-    public partial class index
+    public partial class login
     {
 
         /// <summary>
@@ -24,58 +24,22 @@ namespace M17AB_Intro_2022_2023
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label1 control.
+        /// tbEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.TextBox tbEmail;
 
         /// <summary>
-        /// tb_n1 control.
+        /// tbPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_n1;
-
-        /// <summary>
-        /// Label2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-
-        /// <summary>
-        /// tb_n2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_n2;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// lb_resultado control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_resultado;
+        protected global::System.Web.UI.WebControls.TextBox tbPassword;
 
         /// <summary>
         /// bt control.
@@ -87,12 +51,12 @@ namespace M17AB_Intro_2022_2023
         protected global::System.Web.UI.WebControls.Button bt;
 
         /// <summary>
-        /// bt2 control.
+        /// lbErro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt2;
+        protected global::System.Web.UI.WebControls.Label lbErro;
     }
 }
